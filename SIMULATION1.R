@@ -107,4 +107,5 @@ output <- foreach (tl=1:100, .multicombine=TRUE) %dopar% {
               A_BTVTVAR_cmp=res_BTVTVAR$A_BTVTVAR_cmp, A_tvp=A_tvp))
 }
 
+stopCluster(cl)
 save(output, file='SIMULATION1_PARALLEL.RData')
