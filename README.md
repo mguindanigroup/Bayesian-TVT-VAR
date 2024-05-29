@@ -6,7 +6,7 @@ This repository contains the raw code of the manuscript
 
 by Wei Zhang, Ivor Cribben, Sonia Petrone and Michele Guindani
 
-# SIMULATION1
+# First Simulation
 
 SIMULATION1_DATA_GENERATION.R and SIMULATION1.R replicate the first simulation in the manuscript. They demonstrate an example of using the BTVT-VAR package.
 
